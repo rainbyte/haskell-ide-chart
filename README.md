@@ -2,12 +2,12 @@
 
 | IDE | Syntax highlight | Code Completion | Lint | Code Format | Goto Def | Find Usages | Debugger | Doc. tooltips | Snippets | Hoogle |
 |:---:|:----------------:|:---------------:|:----:|:-----------:|:--------:|:-----------:|:--------:|:-------------:|:--------:|:------:|
-| Atom     | [🌑](https://atom.io/packages/language-haskell "language-haskell") | [🌓](https://atom.io/packages/autocomplete-haskell "ghc-mod via autocomplete-haskell") | 🌓 | [🌕](https://github.com/chrisdone/hindent "hindent") | 🌓 | … | [🌓](https://atom.io/packages/haskell-debug "haskell-debug") | … | … | [🌓](https://atom.io/packages/haskell-hoogle "haskell-hoogle") |
-| Emacs    | [🌑](http://haskell.github.io/haskell-mode/ "haskell-mode") | 🌓 | 🌓 | [🌓](https://github.com/chrisdone/hindent "hindent") | … | … | … | … | … | … |
+| Atom     | [🌑][atom01] | [🌓][atom02] | 🌓 | [🌕][gen01] | 🌓 | … | [🌓][atom03] | … | … | [🌓][atom04] |
+| Emacs    | [🌑][emacs01] | 🌓 | 🌓 | [🌓][gen01] | … | … | … | … | … | … |
 | Intellij | 🌑 | … | … | … | … | … | … | … | … | … |
-| Vim      | 🌑 | 🌕 | [🌓](https://github.com/vim-syntastic/syntastic "syntastic") | [🌓](https://github.com/chrisdone/hindent "hindent") | 🌕 | … | … | [🌓](https://github.com/bitc/vim-hdevtools "vim-hdevtools") | … | … |
-| VSCode 「[Haskelly](https://marketplace.visualstudio.com/items?itemName=UCL.haskelly "Haskelly")」  | [🌑](https://marketplace.visualstudio.com/items?itemName=justusadam.language-haskell "Haskell Syntax Highlighting") | … | [🌓](https://marketplace.visualstudio.com/items?itemName=hoovercj.haskell-linter "haskell-linter") | [🌓](https://marketplace.visualstudio.com/items?itemName=monofon.hindent-format "hindent") | 🌓 | … | [🌕](https://marketplace.visualstudio.com/items?itemName=phoityne.phoityne-vscode "Phoityne") | 🌓 | … | … |
-| Sublime 「[SublimeHaskell](https://github.com/SublimeHaskell/SublimeHaskell)」 | 🌑 | 🌓 | 🌓 | … | 🌕 | … | … | 🌓 | … | … |
+| Vim      | 🌑 | 🌕 | [🌓][vim01] | [🌓][gen01] | 🌕 | … | … | [🌓][vim02] | … | … |
+| VSCode 「[Haskelly][vsco01]」 | [🌑][vsco02] | … | [🌓][vsco03] | [🌓][vsco04] | 🌓 | … | [🌕][vsco05] | 🌓 | … | … |
+| Sublime 「[SublimeHaskell][subl01]」 | 🌑 | 🌓 | 🌓 | … | 🌕 | … | … | 🌓 | … | … |
 
 
 | Symbol | Support Level                         |
@@ -16,3 +16,23 @@
 | 🌕     | Immature, only for early-adopters     |
 | 🌓     | Mature, suitable for most programmers |
 | 🌑     | The best™ experience                  |
+
+[gen01]: https://github.com/chrisdone/hindent "hindent"
+
+[atom01]: https://atom.io/packages/language-haskell "language-haskell"
+[atom02]: https://atom.io/packages/autocomplete-haskell "ghc-mod via autocomplete-haskell"
+[atom03]: https://atom.io/packages/haskell-debug "haskell-debug"
+[atom04]: https://atom.io/packages/haskell-hoogle "haskell-hoogle"
+
+[emacs01]: http://haskell.github.io/haskell-mode/ "haskell-mode"
+
+[vim01]: https://github.com/vim-syntastic/syntastic "syntastic"
+[vim02]: https://github.com/bitc/vim-hdevtools "vim-hdevtools"
+
+[vsco01]: https://marketplace.visualstudio.com/items?itemName=UCL.haskelly "Haskelly"
+[vsco02]: https://marketplace.visualstudio.com/items?itemName=justusadam.language-haskell "Haskell Syntax Highlighting"
+[vsco03]: https://marketplace.visualstudio.com/items?itemName=hoovercj.haskell-linter "haskell-linter"
+[vsco04]: https://marketplace.visualstudio.com/items?itemName=monofon.hindent-format "hindent"
+[vsco05]: https://marketplace.visualstudio.com/items?itemName=phoityne.phoityne-vscode "Phoityne"
+
+[subl01]: https://github.com/SublimeHaskell/SublimeHaskell "SublimeHaskell"

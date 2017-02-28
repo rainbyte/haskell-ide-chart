@@ -17,7 +17,7 @@
 |:------:|:------------------------------------- |
 | …      | Unknown, support is uncertain         |
 | 🚲     | Nearly absent, you are on your own    |
-| 🚗     | Inmature, but suitable for most programmers |
+| 🚗     | Suitable for most programmers         |
 | 🚀     | From mature to the best™ experience   |
 
 

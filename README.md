@@ -16,7 +16,8 @@
 | Symbol | Support Level                         |
 |:------:|:------------------------------------- |
 | …      | Unknown, support is uncertain         |
-| 🚲     | Nearly absent, you are on your own    |
+| 🚶     | Absent, you are on your own           |
+| 🚲     | Inmature, only for early-adopters     |
 | 🚗     | Suitable for most programmers         |
 | 🚀     | From mature to the best™ experience   |
 

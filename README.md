@@ -4,7 +4,8 @@
 |:---:|:----------------:|:---------------:|:----:|:-----------:|:--------:|:-----------:|:--------:|:-------------:|:--------:|:------:|
 | Atom     | [🚀][atom01] | [🚗][atom02] | 🚗 | [🚲][gen01] | 🚗 | … | [🚗][atom03] | … | [🚗][atom01] | [🚗][atom04] |
 | Emacs 「[Intero][emacs02]」 | [🚀][emacs01] | 🚗² | 🚗² | [🚗][gen01] | 🚗² | … | … | 🚗² | [🚗³][emacs04] | … |
-| Intellij | 🚀 | … | … | … | … | … | … | … | … | … |
+| Intellij 「[HaskForce][inte01]」 | 🚀² | … | … | … | … | … | … | … | … | … |
+| Intellij<br>「[intellij-haskell][inte02]」| 🚀² | … | … | … | … | … | … | … | … | … |
 | Leksah | 🚀¹ | … | … | … | … | … | … | … | … | … |
 | Vim      | 🚀¹ | 🚲¹ | [🚗][vim01] | [🚗][gen01] | 🚲¹ | … | … | [🚗][vim02] | [🚗][vim03] | … |
 | VSCode 「[Haskelly][vsco01]」 | [🚀][vsco02] | … | [🚗][vsco03] | [🚗][vsco04] | 🚗² | … | [🚲][vsco05] | 🚗² | [🚲][vsco02] | … |
@@ -37,6 +38,9 @@ Notes:
 [emacs02]: https://commercialhaskell.github.io/intero/ "intero"
 [emacs03]: https://github.com/haskell/haskell-snippets "haskell-snippets"
 [emacs04]: https://github.com/joaotavora/yasnippet "yasnippet"
+
+[inte01]: https://github.com/carymrobbins/intellij-haskforce "HaskForce"
+[inte02]: https://github.com/rikvdkleij/intellij-haskell "intellij-haskell"
 
 [vim01]: https://github.com/vim-syntastic/syntastic "syntastic"
 [vim02]: https://github.com/bitc/vim-hdevtools "vim-hdevtools"

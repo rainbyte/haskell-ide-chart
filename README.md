@@ -1,16 +1,16 @@
 **Support chart (with links to plug-ins)**
 
-| IDE | Syntax highlight | Code Completion | Lint | Code Format | Goto Def | Find Usages | Debugger | Doc. tooltips | Snippets | Hoogle |
+| IDE | Syntax highlight | Code Completion | Lint | Code Format | Goto Def | Find Usages | Stepwise Debugger | Doc. tooltips | Snippets | Hoogle |
 |:---:|:----------------:|:---------------:|:----:|:-----------:|:--------:|:-----------:|:--------:|:-------------:|:--------:|:------:|
 | Atom<br>「[ide-haskell][atom06]」 | [🚀][atom01] | [🚗][atom02] | 🚗 | [🚲][gen01] | 🚗 | … | [🚗][atom03] | [🚗][atom05] | [🚗][atom01] | [🚗][atom04] |
-| Emacs 「[Intero][emacs02]」 | [🚀][emacs01] | 🚗² | 🚗² | [🚗][gen01] | 🚗² | … | … | 🚗² | [🚗³][emacs04] | … |
-| Intellij 「[HaskForce][inte01]」 | 🚀² | … | … | … | … | … | … | … | … | … |
-| Intellij<br>「[intellij-haskell][inte02]」| 🚀² | … | … | … | … | … | … | … | … | … |
+| Emacs 「[Intero][emacs02]」 | [🚀][emacs01] | 🚗² | 🚗² | [🚗][gen01] | 🚗² | … | 🚶 | 🚗² | [🚗³][emacs04] | … |
+| Intellij 「[HaskForce][inte01]」 | 🚀² | … | … | … | … | … | 🚶 | … | … | … |
+| Intellij<br>「[intellij-haskell][inte02]」| 🚀² | … | … | … | … | … | 🚶 | … | … | … |
 | Leksah | 🚀¹ | … | … | … | … | … | … | … | … | … |
-| Vim      | 🚀¹ | 🚲¹ | [🚗][vim01] | [🚗][gen01] | 🚲¹ | … | … | [🚗][vim02] | [🚗][vim03] | … |
+| Vim      | 🚀¹ | 🚲¹ | [🚗][vim01] | [🚗][gen01] | 🚲¹ | … | 🚶 | [🚗][vim02] | [🚗][vim03] | … |
 | VSCode 「[Haskelly][vsco01]」 | [🚀][vsco02] | … | [🚗][vsco03] | [🚗][vsco04] | 🚗² | … | [🚲][vsco05] | 🚗² | [🚲][vsco02] | … |
 | VSCode 「[Haskero][vsco01]」  | [🚀][vsco02] | 🚗² | [🚗][vsco03] | [🚗][vsco04] | 🚗² | 🚗² | [🚲][vsco05] | 🚗² | [🚲][vsco02] | … |
-| Sublime 「[SublimeHaskell][subl01]」 | 🚀² | 🚗² | 🚗² | … | 🚲¹ | … | … | 🚗² | … | … |
+| Sublime 「[SublimeHaskell][subl01]」 | 🚀² | 🚗² | 🚗² | … | 🚲¹ | … | 🚶 | 🚗² | … | … |
 
 
 | Symbol | Support Level                         |

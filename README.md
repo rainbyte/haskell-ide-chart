@@ -3,7 +3,7 @@
 | IDE | Syntax highlight | Code Completion | Lint | Code Format | Goto Def | Find Usages | Debugger | Doc. tooltips | Snippets | Hoogle |
 |:---:|:----------------:|:---------------:|:----:|:-----------:|:--------:|:-----------:|:--------:|:-------------:|:--------:|:------:|
 | Atom     | [🌑][atom01] | [🌓][atom02] | 🌓 | [🌕][gen01] | 🌓 | … | [🌓][atom03] | … | … | [🌓][atom04] |
-| Emacs    | [🌑][emacs01] | 🌓 | 🌓 | [🌓][gen01] | … | … | … | … | … | … |
+| Emacs 「[Intero][emacs02]」 | [🌑][emacs01] | 🌓² | 🌓² | [🌓][gen01] | 🌓² | … | … | 🌓² | … | … |
 | Intellij | 🌑 | … | … | … | … | … | … | … | … | … |
 | Vim      | 🌑¹ | 🌕¹ | [🌓][vim01] | [🌓][gen01] | 🌕¹ | … | … | [🌓][vim02] | … | … |
 | VSCode 「[Haskelly][vsco01]」 | [🌑][vsco02] | … | [🌓][vsco03] | [🌓][vsco04] | 🌓² | … | [🌕][vsco05] | 🌓² | … | … |
@@ -30,6 +30,7 @@ Notes:
 [atom04]: https://atom.io/packages/haskell-hoogle "haskell-hoogle"
 
 [emacs01]: http://haskell.github.io/haskell-mode/ "haskell-mode"
+[emacs02]: https://commercialhaskell.github.io/intero/ "intero"
 
 [vim01]: https://github.com/vim-syntastic/syntastic "syntastic"
 [vim02]: https://github.com/bitc/vim-hdevtools "vim-hdevtools"

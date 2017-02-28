@@ -7,6 +7,7 @@
 | Intellij | 🌑 | … | … | … | … | … | … | … | … | … |
 | Vim      | 🌑 | 🌕 | [🌓](https://github.com/vim-syntastic/syntastic "syntastic") | [🌓](https://github.com/chrisdone/hindent "hindent") | 🌕 | … | … | [🌓](https://github.com/bitc/vim-hdevtools "vim-hdevtools") | … | … |
 | VSCode   | [🌑](https://marketplace.visualstudio.com/items?itemName=justusadam.language-haskell "Haskell Syntax Highlighting") | … | [🌓](https://marketplace.visualstudio.com/items?itemName=hoovercj.haskell-linter "haskell-linter") | [🌓](https://marketplace.visualstudio.com/items?itemName=monofon.hindent-format "hindent") | [🌓](https://marketplace.visualstudio.com/items?itemName=UCL.haskelly "Haskelly") | … | [🌕](https://marketplace.visualstudio.com/items?itemName=phoityne.phoityne-vscode "Phoityne") | [🌓](https://marketplace.visualstudio.com/items?itemName=UCL.haskelly "Haskelly") | … | … |
+| Sublime 「[SublimeHaskell](https://github.com/SublimeHaskell/SublimeHaskell)」 | 🌑 | 🌓 | 🌓 | … | 🌕 | … | … | 🌓 | … | … |
 
 
 | Symbol | Support Level                         |

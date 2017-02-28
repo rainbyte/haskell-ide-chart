@@ -18,8 +18,8 @@
 | …      | Unknown, support is uncertain         |
 | 🚶     | Absent, you are on your own           |
 | 🚲     | Inmature, only for early-adopters     |
-| 🚗     | Suitable for most programmers         |
-| 🚀     | From mature to the best™ experience   |
+| 🚗     | Mature, suitable for most programmers |
+| 🚀     | The best™ possible experience         |
 
 
 Notes:

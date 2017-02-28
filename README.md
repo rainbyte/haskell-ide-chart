@@ -7,6 +7,7 @@
 | Intellij | 🌑 | … | … | … | … | … | … | … | … | … |
 | Vim      | 🌑¹ | 🌕¹ | [🌓][vim01] | [🌓][gen01] | 🌕¹ | … | … | [🌓][vim02] | … | … |
 | VSCode 「[Haskelly][vsco01]」 | [🌑][vsco02] | … | [🌓][vsco03] | [🌓][vsco04] | 🌓² | … | [🌕][vsco05] | 🌓² | … | … |
+| VSCode 「[Haskero][vsco01]」  | [🌑][vsco02] | 🌓² | [🌓][vsco03] | [🌓][vsco04] | 🌓² | 🌓² | [🌕][vsco05] | 🌓² | … | … |
 | Sublime 「[SublimeHaskell][subl01]」 | 🌑² | 🌓² | 🌓² | … | 🌕¹ | … | … | 🌓² | … | … |
 
 
@@ -40,5 +41,6 @@ Notes:
 [vsco03]: https://marketplace.visualstudio.com/items?itemName=hoovercj.haskell-linter "haskell-linter"
 [vsco04]: https://marketplace.visualstudio.com/items?itemName=monofon.hindent-format "hindent"
 [vsco05]: https://marketplace.visualstudio.com/items?itemName=phoityne.phoityne-vscode "Phoityne"
+[vsco06]: https://marketplace.visualstudio.com/items?itemName=Vans.haskero "Haskero"
 
 [subl01]: https://github.com/SublimeHaskell/SublimeHaskell "SublimeHaskell"

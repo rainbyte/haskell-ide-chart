@@ -2,7 +2,7 @@
 
 | IDE | Syntax highlight | Code Completion | Lint | Code Format | Goto Def | Find Usages | Debugger | Doc. tooltips | Snippets | Hoogle |
 |:---:|:----------------:|:---------------:|:----:|:-----------:|:--------:|:-----------:|:--------:|:-------------:|:--------:|:------:|
-| Atom     | [🚀][atom01] | [🚗][atom02] | 🚗 | [🚲][gen01] | 🚗 | … | [🚗][atom03] | … | [🚗][atom01] | [🚗][atom04] |
+| Atom<br>「[ide-haskell][atom06]」 | [🚀][atom01] | [🚗][atom02] | 🚗 | [🚲][gen01] | 🚗 | … | [🚗][atom03] | [🚗][atom05] | [🚗][atom01] | [🚗][atom04] |
 | Emacs 「[Intero][emacs02]」 | [🚀][emacs01] | 🚗² | 🚗² | [🚗][gen01] | 🚗² | … | … | 🚗² | [🚗³][emacs04] | … |
 | Intellij 「[HaskForce][inte01]」 | 🚀² | … | … | … | … | … | … | … | … | … |
 | Intellij<br>「[intellij-haskell][inte02]」| 🚀² | … | … | … | … | … | … | … | … | … |
@@ -33,6 +33,8 @@ Notes:
 [atom02]: https://atom.io/packages/autocomplete-haskell "ghc-mod via autocomplete-haskell"
 [atom03]: https://atom.io/packages/haskell-debug "haskell-debug"
 [atom04]: https://atom.io/packages/haskell-hoogle "haskell-hoogle"
+[atom05]: https://atom.io/packages/haskell-ghc-mod "haskell-ghc-mod"
+[atom06]: https://github.com/atom-haskell/ide-haskell "ide-haskell"
 
 [emacs01]: http://haskell.github.io/haskell-mode/ "haskell-mode"
 [emacs02]: https://commercialhaskell.github.io/intero/ "intero"

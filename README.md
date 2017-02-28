@@ -1,4 +1,13 @@
-**Support chart (with links to plug-ins)**
+# State of Haskell editor/IDE support
+
+This chart describes the support level of each Haskell editor/IDE *plug-in combination*.
+
+In most cases there is a main plug-in which act as a base for the provided features.
+
+Each known plug-in have an associated link and tooltip with its name.
+
+
+## The chart (with a link to each plug-in)
 
 | IDE | Syntax highlight | Code Completion | Lint | Code Format | Goto Def | Find Usages | Stepwise Debugger | Doc. tooltips | Snippets | Hoogle |
 |:---:|:----------------:|:---------------:|:----:|:-----------:|:--------:|:-----------:|:--------:|:-------------:|:--------:|:------:|
@@ -12,6 +21,8 @@
 | VSCode 「[Haskero][vsco01]」  | [🚀][vsco02] | 🚗² | [🚗][vsco03] | [🚗][vsco04] | 🚗² | 🚗² | [🚲][vsco05] | 🚗² | [🚲][vsco02] | … |
 | Sublime 「[SublimeHaskell][subl01]」 | 🚀² | 🚗² | 🚗² | … | 🚲¹ | … | 🚶 | 🚗² | … | … |
 
+
+## Meaning of each level
 
 | Symbol | Support Level                         |
 |:------:|:------------------------------------- |

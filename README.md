@@ -2,21 +2,21 @@
 
 | IDE | Syntax highlight | Code Completion | Lint | Code Format | Goto Def | Find Usages | Debugger | Doc. tooltips | Snippets | Hoogle |
 |:---:|:----------------:|:---------------:|:----:|:-----------:|:--------:|:-----------:|:--------:|:-------------:|:--------:|:------:|
-| Atom     | [🌑][atom01] | [🌓][atom02] | 🌓 | [🌕][gen01] | 🌓 | … | [🌓][atom03] | … | [🌓][atom01] | [🌓][atom04] |
-| Emacs 「[Intero][emacs02]」 | [🌑][emacs01] | 🌓² | 🌓² | [🌓][gen01] | 🌓² | … | … | 🌓² | [🌓³][emacs04] | … |
-| Intellij | 🌑 | … | … | … | … | … | … | … | … | … |
-| Vim      | 🌑¹ | 🌕¹ | [🌓][vim01] | [🌓][gen01] | 🌕¹ | … | … | [🌓][vim02] | [🌓][vim03] | … |
-| VSCode 「[Haskelly][vsco01]」 | [🌑][vsco02] | … | [🌓][vsco03] | [🌓][vsco04] | 🌓² | … | [🌕][vsco05] | 🌓² | [🌕][vsco02] | … |
-| VSCode 「[Haskero][vsco01]」  | [🌑][vsco02] | 🌓² | [🌓][vsco03] | [🌓][vsco04] | 🌓² | 🌓² | [🌕][vsco05] | 🌓² | [🌕][vsco02] | … |
-| Sublime 「[SublimeHaskell][subl01]」 | 🌑² | 🌓² | 🌓² | … | 🌕¹ | … | … | 🌓² | … | … |
+| Atom     | [🚀][atom01] | [🚗][atom02] | 🚗 | [🚲][gen01] | 🚗 | … | [🚗][atom03] | … | [🚗][atom01] | [🚗][atom04] |
+| Emacs 「[Intero][emacs02]」 | [🚀][emacs01] | 🚗² | 🚗² | [🚗][gen01] | 🚗² | … | … | 🚗² | [🚗³][emacs04] | … |
+| Intellij | 🚀 | … | … | … | … | … | … | … | … | … |
+| Vim      | 🚀¹ | 🚲¹ | [🚗][vim01] | [🚗][gen01] | 🚲¹ | … | … | [🚗][vim02] | [🚗][vim03] | … |
+| VSCode 「[Haskelly][vsco01]」 | [🚀][vsco02] | … | [🚗][vsco03] | [🚗][vsco04] | 🚗² | … | [🚲][vsco05] | 🚗² | [🚲][vsco02] | … |
+| VSCode 「[Haskero][vsco01]」  | [🚀][vsco02] | 🚗² | [🚗][vsco03] | [🚗][vsco04] | 🚗² | 🚗² | [🚲][vsco05] | 🚗² | [🚲][vsco02] | … |
+| Sublime 「[SublimeHaskell][subl01]」 | 🚀² | 🚗² | 🚗² | … | 🚲¹ | … | … | 🚗² | … | … |
 
 
 | Symbol | Support Level                         |
 |:------:|:------------------------------------- |
 | …      | Unknown, support is uncertain         |
-| 🌕     | Immature, only for early-adopters     |
-| 🌓     | Mature, suitable for most programmers |
-| 🌑     | The best™ experience                  |
+| 🚲     | Nearly absent, you are on your own    |
+| 🚗     | Inmature, but suitable for most programmers |
+| 🚀     | From mature to the best™ experience   |
 
 
 Notes:

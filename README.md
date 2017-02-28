@@ -5,9 +5,9 @@
 | Atom     | [🌑][atom01] | [🌓][atom02] | 🌓 | [🌕][gen01] | 🌓 | … | [🌓][atom03] | … | … | [🌓][atom04] |
 | Emacs    | [🌑][emacs01] | 🌓 | 🌓 | [🌓][gen01] | … | … | … | … | … | … |
 | Intellij | 🌑 | … | … | … | … | … | … | … | … | … |
-| Vim      | 🌑 | 🌕 | [🌓][vim01] | [🌓][gen01] | 🌕 | … | … | [🌓][vim02] | … | … |
-| VSCode 「[Haskelly][vsco01]」 | [🌑][vsco02] | … | [🌓][vsco03] | [🌓][vsco04] | 🌓 | … | [🌕][vsco05] | 🌓 | … | … |
-| Sublime 「[SublimeHaskell][subl01]」 | 🌑 | 🌓 | 🌓 | … | 🌕 | … | … | 🌓 | … | … |
+| Vim      | 🌑¹ | 🌕¹ | [🌓][vim01] | [🌓][gen01] | 🌕¹ | … | … | [🌓][vim02] | … | … |
+| VSCode 「[Haskelly][vsco01]」 | [🌑][vsco02] | … | [🌓][vsco03] | [🌓][vsco04] | 🌓² | … | [🌕][vsco05] | 🌓² | … | … |
+| Sublime 「[SublimeHaskell][subl01]」 | 🌑² | 🌓² | 🌓² | … | 🌕¹ | … | … | 🌓² | … | … |
 
 
 | Symbol | Support Level                         |
@@ -16,6 +16,11 @@
 | 🌕     | Immature, only for early-adopters     |
 | 🌓     | Mature, suitable for most programmers |
 | 🌑     | The best™ experience                  |
+
+
+Notes:
+1. native support (probably minimal)
+2. via main plug-in
 
 [gen01]: https://github.com/chrisdone/hindent "hindent"
 

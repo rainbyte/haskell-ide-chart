@@ -16,7 +16,7 @@ Each known plug-in have an associated link and tooltip with its name.
 | Intellij 「[HaskForce][inte01]」 | 🚀² | … | … | … | … | … | 🚶 | … | … | … |
 | Intellij<br>「[intellij-haskell][inte02]」| 🚀² | … | … | … | … | … | 🚶 | … | … | … |
 | Leksah | 🚀¹ | … | … | … | … | … | … | … | … | … |
-| Vim      | 🚀¹ | 🚲¹ | [🚗][vim01] | [🚗][gen01] | 🚲¹ | … | 🚶 | [🚗][vim02] | [🚗][vim03] | … |
+| Vim      | 🚀¹ | 🚲¹ | [🚗⁴][vim01] | [🚗][gen01] | 🚲¹ | … | 🚶 | [🚗][vim02] | [🚗][vim03] | … |
 | VSCode 「[Haskelly][vsco01]」 | [🚀][vsco02] | … | [🚗][vsco03] | [🚗][vsco04] | 🚗² | … | [🚲][vsco05] | 🚗² | [🚲][vsco02] | … |
 | VSCode 「[Haskero][vsco01]」  | [🚀][vsco02] | 🚗² | [🚗][vsco03] | [🚗][vsco04] | 🚗² | 🚗² | [🚲][vsco05] | 🚗² | [🚲][vsco02] | … |
 | Sublime 「[SublimeHaskell][subl01]」 | 🚀² | 🚗² | 🚗² | … | 🚲¹ | … | 🚶 | 🚗² | … | … |
@@ -38,6 +38,7 @@ Notes:
 1. native support (probably minimal)
 2. via main plug-in
 3. more emacs snippets [here][emacs03], via haskell-snippets
+4. for linting, syntastic depends on hdevtools and hlint
 
 [gen01]: https://github.com/chrisdone/hindent "hindent"
 

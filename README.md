@@ -12,11 +12,11 @@ Each known plug-in have an associated link and tooltip with its name.
 | IDE | Syntax highlight | Code Completion | Error Reporting | Lint | Code Format | Goto Def | Find Usages | Stepwise Debugger | Doc. tooltips | Snippets | Hoogle |
 |:---:|:----------------:|:---------------:|:---------------:|:----:|:-----------:|:--------:|:-----------:|:--------:|:-------------:|:--------:|:------:|
 | Atom<br>「[ide-haskell][atom06]」 | [🚀][atom01] | [🚗][atom02] | 🚗 | 🚗 | [🚲][gen01] | 🚗 | … | [🚗][atom03] | [🚗][atom05] | [🚗][atom01] | [🚗][atom04] |
-| Emacs 「[Intero][emacs02]」 | [🚀][emacs01] | 🚗² | 🚗² | 🚗² | [🚗][gen01] | 🚗² | … | 🚶 | 🚗² | [🚗³][emacs04] | … |
+| Emacs 「[Intero][emacs02]」 | [🚀][emacs01] | 🚗² | 🚗² | 🚗² | [🚗][gen01] | 🚗² | … | 🚶 | 🚗² | [🚗][emacs04] | … |
 | Intellij 「[HaskForce][inte01]」 | 🚀² | … | … | … | … | … | … | 🚶 | … | … | … |
 | Intellij<br>「[intellij-haskell][inte02]」| 🚀² | … | … | … | … | … | … | 🚶 | … | … | … |
 | Leksah | 🚀¹ | … | … | … | … | … | … | … | … | … | … |
-| Vim      | 🚀¹ | 🚲¹ | … | [🚗⁴][vim01] | [🚗][gen01] | 🚲¹ | … | 🚶 | [🚗][vim02] | [🚗][vim03] | … |
+| Vim      | 🚀¹ | 🚲¹ | … | [🚗³][vim01] | [🚗][gen01] | 🚲¹ | … | 🚶 | [🚗][vim02] | [🚗][vim03] | … |
 | VSCode 「[Haskelly][vsco01]」 | [🚀][vsco02] | … | [🚶][vsco07] | [🚗][vsco03] | [🚗][vsco04] | 🚗² | … | [🚲][vsco05] | 🚗² | [🚲][vsco02] | … |
 | VSCode 「[Haskero][vsco06]」  | [🚀][vsco02] | 🚗² | 🚗² | [🚗][vsco03] | [🚗][vsco04] | 🚗² | 🚗² | [🚲][vsco05] | 🚗² | [🚲][vsco02] | … |
 | Sublime 「[SublimeHaskell][subl01]」 | 🚀² | 🚗² | … | 🚗² | … | 🚲¹ | … | 🚶 | 🚗² | … | … |
@@ -37,8 +37,7 @@ Notes:
 
 1. native support (probably minimal)
 2. via main plug-in
-3. more emacs snippets [here][emacs03], via haskell-snippets
-4. for linting, syntastic depends on hdevtools and hlint
+3. this plug-in needs special config and/or system deps, refer to its documentation
 
 [gen01]: https://github.com/chrisdone/hindent "hindent"
 
@@ -51,7 +50,6 @@ Notes:
 
 [emacs01]: http://haskell.github.io/haskell-mode/ "haskell-mode"
 [emacs02]: https://commercialhaskell.github.io/intero/ "intero"
-[emacs03]: https://github.com/haskell/haskell-snippets "haskell-snippets"
 [emacs04]: https://github.com/joaotavora/yasnippet "yasnippet"
 
 [inte01]: https://github.com/carymrobbins/intellij-haskforce "HaskForce"

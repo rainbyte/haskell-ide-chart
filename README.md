@@ -9,17 +9,17 @@ Each known plug-in have an associated link and tooltip with its name.
 
 ## The chart (with a link to each plug-in)
 
-| IDE | Syntax highlight | Code Completion | Lint | Code Format | Goto Def | Find Usages | Stepwise Debugger | Doc. tooltips | Snippets | Hoogle |
-|:---:|:----------------:|:---------------:|:----:|:-----------:|:--------:|:-----------:|:--------:|:-------------:|:--------:|:------:|
-| Atom<br>「[ide-haskell][atom06]」 | [🚀][atom01] | [🚗][atom02] | 🚗 | [🚲][gen01] | 🚗 | … | [🚗][atom03] | [🚗][atom05] | [🚗][atom01] | [🚗][atom04] |
-| Emacs 「[Intero][emacs02]」 | [🚀][emacs01] | 🚗² | 🚗² | [🚗][gen01] | 🚗² | … | 🚶 | 🚗² | [🚗³][emacs04] | … |
-| Intellij 「[HaskForce][inte01]」 | 🚀² | … | … | … | … | … | 🚶 | … | … | … |
-| Intellij<br>「[intellij-haskell][inte02]」| 🚀² | … | … | … | … | … | 🚶 | … | … | … |
-| Leksah | 🚀¹ | … | … | … | … | … | … | … | … | … |
-| Vim      | 🚀¹ | 🚲¹ | [🚗⁴][vim01] | [🚗][gen01] | 🚲¹ | … | 🚶 | [🚗][vim02] | [🚗][vim03] | … |
-| VSCode 「[Haskelly][vsco01]」 | [🚀][vsco02] | … | [🚗][vsco03] | [🚗][vsco04] | 🚗² | … | [🚲][vsco05] | 🚗² | [🚲][vsco02] | … |
-| VSCode 「[Haskero][vsco06]」  | [🚀][vsco02] | 🚗² | [🚗][vsco03] | [🚗][vsco04] | 🚗² | 🚗² | [🚲][vsco05] | 🚗² | [🚲][vsco02] | … |
-| Sublime 「[SublimeHaskell][subl01]」 | 🚀² | 🚗² | 🚗² | … | 🚲¹ | … | 🚶 | 🚗² | … | … |
+| IDE | Syntax highlight | Code Completion | Error Reporting | Lint | Code Format | Goto Def | Find Usages | Stepwise Debugger | Doc. tooltips | Snippets | Hoogle |
+|:---:|:----------------:|:---------------:|:---------------:|:----:|:-----------:|:--------:|:-----------:|:--------:|:-------------:|:--------:|:------:|
+| Atom<br>「[ide-haskell][atom06]」 | [🚀][atom01] | [🚗][atom02] | 🚗 | 🚗 | [🚲][gen01] | 🚗 | … | [🚗][atom03] | [🚗][atom05] | [🚗][atom01] | [🚗][atom04] |
+| Emacs 「[Intero][emacs02]」 | [🚀][emacs01] | 🚗² | 🚗² | 🚗² | [🚗][gen01] | 🚗² | … | 🚶 | 🚗² | [🚗³][emacs04] | … |
+| Intellij 「[HaskForce][inte01]」 | 🚀² | … | … | … | … | … | … | 🚶 | … | … | … |
+| Intellij<br>「[intellij-haskell][inte02]」| 🚀² | … | … | … | … | … | … | 🚶 | … | … | … |
+| Leksah | 🚀¹ | … | … | … | … | … | … | … | … | … | … |
+| Vim      | 🚀¹ | 🚲¹ | … | [🚗⁴][vim01] | [🚗][gen01] | 🚲¹ | … | 🚶 | [🚗][vim02] | [🚗][vim03] | … |
+| VSCode 「[Haskelly][vsco01]」 | [🚀][vsco02] | … | [🚶][vsco07] | [🚗][vsco03] | [🚗][vsco04] | 🚗² | … | [🚲][vsco05] | 🚗² | [🚲][vsco02] | … |
+| VSCode 「[Haskero][vsco06]」  | [🚀][vsco02] | 🚗² | 🚗² | [🚗][vsco03] | [🚗][vsco04] | 🚗² | 🚗² | [🚲][vsco05] | 🚗² | [🚲][vsco02] | … |
+| Sublime 「[SublimeHaskell][subl01]」 | 🚀² | 🚗² | … | 🚗² | … | 🚲¹ | … | 🚶 | 🚗² | … | … |
 
 
 ## Meaning of each level
@@ -67,5 +67,6 @@ Notes:
 [vsco04]: https://marketplace.visualstudio.com/items?itemName=monofon.hindent-format "hindent"
 [vsco05]: https://marketplace.visualstudio.com/items?itemName=phoityne.phoityne-vscode "Phoityne"
 [vsco06]: https://marketplace.visualstudio.com/items?itemName=Vans.haskero "Haskero"
+[vsco07]: https://github.com/haskelly-dev/Haskelly/issues/29 "haskelly: issue #29"
 
 [subl01]: https://github.com/SublimeHaskell/SublimeHaskell "SublimeHaskell"

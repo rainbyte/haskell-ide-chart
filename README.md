@@ -28,7 +28,7 @@ Each known plug-in have an associated link and tooltip with its name.
 |:------:|:------------------------------------- |
 | …      | Unknown, support is uncertain         |
 | 🚶     | Absent, you are on your own           |
-| 🚲     | Inmature, only for early-adopters     |
+| 🚲     | Immature, only for early-adopters     |
 | 🚗     | Mature, suitable for most programmers |
 | 🚀     | The best™ possible experience         |
 

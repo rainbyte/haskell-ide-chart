@@ -39,6 +39,24 @@ Notes:
 2. via main plug-in
 3. this plug-in needs special config and/or system deps, refer to its documentation
 
+## Features
+
+* Syntax highlight 
+* Code Completion
+* Error Reporting
+* Lint
+* Code Format
+* Goto Def
+* Find Usages
+* Stepwise Debugger
+* Doc. tooltips
+* Snippets - Predefined and customizable templates for pieces of code you write often. For example, if you write `case`, an editor might provide a completion like
+  ```haskell
+  case ___ of
+    __ -> ___
+  ```
+* Hoogle
+
 [gen01]: https://github.com/chrisdone/hindent "hindent"
 
 [atom01]: https://atom.io/packages/language-haskell "language-haskell"

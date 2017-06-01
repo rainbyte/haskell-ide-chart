@@ -9,17 +9,17 @@ Each known plug-in have an associated link and tooltip with its name.
 
 ## The chart (with a link to each plug-in)
 
-| IDE | Syntax highlight | Code Completion | Error Reporting | Lint | Code Format | Goto Def | Find Usages | Stepwise Debugger | Doc. tooltips | Snippets | Hoogle |
-|:---:|:----------------:|:---------------:|:---------------:|:----:|:-----------:|:--------:|:-----------:|:--------:|:-------------:|:--------:|:------:|
-| Atom<br>「[ide-haskell][atom06]」 | [🚀][atom01] | [🚗][atom02] | 🚗 | 🚗 | [🚲][gen01] | 🚗 | … | [🚗][atom03] | [🚗][atom05] | [🚗][atom01] | [🚗][atom04] |
-| Emacs 「[Intero][emacs02]」 | [🚀][emacs01] | 🚗² | 🚗² | 🚗² | [🚗][gen01] | 🚗² | … | 🚶 | 🚗² | [🚗][emacs04] | … |
-| Intellij 「[HaskForce][inte01]」 | 🚀² | … | … | … | … | … | … | 🚶 | … | … | … |
-| Intellij<br>「[intellij-haskell][inte02]」| 🚀² | 🚗 | 🚀 | 🚲 | 🚲 | 🚀 | 🚀 | 🚶 | 🚲 | 🚶 | 🚲 |
-| Leksah | 🚀¹ | … | … | … | … | … | … | … | … | … | … |
-| Vim      | 🚀¹ | 🚲¹ | … | [🚗³][vim01] | [🚗][gen01] | 🚲¹ | … | 🚶 | [🚗][vim02] | [🚗][vim03] | … |
-| VSCode 「[Haskelly][vsco01]」 | [🚀][vsco02] | … | [🚶][vsco07] | [🚗][vsco03] | [🚗][vsco04] | 🚗² | … | [🚲][vsco05] | 🚗² | [🚲][vsco02] | … |
-| VSCode 「[Haskero][vsco06]」  | [🚀][vsco02] | 🚗² | 🚗² | [🚗][vsco03] | [🚗][vsco04] | 🚗² | 🚗² | [🚲][vsco05] | 🚗² | [🚲][vsco02] | … |
-| Sublime 「[SublimeHaskell][subl01]」 | 🚀² | 🚗² | … | 🚗² | … | 🚲¹ | … | 🚶 | 🚗² | … | … |
+| IDE | Syntax highlight | Code Completion | Error Reporting | Lint | Code Format | Goto Def | Find Usages | Stepwise Debugger | Doc. tooltips | Snippets | Hoogle | REPL Integration |
+|:---:|:----------------:|:---------------:|:---------------:|:----:|:-----------:|:--------:|:-----------:|:-----------------:|:-------------:|:--------:|:------:|:----------------:|
+| Atom<br>「[ide-haskell][atom06]」 | [🚀][atom01] | [🚗][atom02] | 🚗 | 🚗 | [🚲][gen01] | 🚗 | … | [🚗][atom03] | [🚗][atom05] | [🚗][atom01] | [🚗][atom04] | 🚲 |
+| Emacs 「[Intero][emacs02]」 | [🚀][emacs01] | 🚗² | 🚗² | 🚗² | [🚗][gen01] | 🚗² | … | 🚶 | 🚗² | [🚗][emacs04] | … | 🚗 |
+| Intellij 「[HaskForce][inte01]」 | 🚀² | … | … | … | … | … | … | 🚶 | … | … | … | … |
+| Intellij<br>「[intellij-haskell][inte02]」| 🚀² | 🚗 | 🚀 | 🚲 | 🚲 | 🚀 | 🚀 | 🚶 | 🚲 | 🚶 | 🚲 | … |
+| Leksah | 🚀¹ | … | … | … | … | … | … | … | … | … | … | … |
+| Vim      | 🚀¹ | 🚲¹ | … | [🚗³][vim01] | [🚗][gen01] | 🚲¹ | … | 🚶 | [🚗][vim02] | [🚗][vim03] | … | 🚲 |
+| VSCode 「[Haskelly][vsco01]」 | [🚀][vsco02] | … | [🚶][vsco07] | [🚗][vsco03] | [🚗][vsco04] | 🚗² | … | [🚲][vsco05] | 🚗² | [🚲][vsco02] | … | 🚲 |
+| VSCode 「[Haskero][vsco06]」  | [🚀][vsco02] | 🚗² | 🚗² | [🚗][vsco03] | [🚗][vsco04] | 🚗² | 🚗² | [🚲][vsco05] | 🚗² | [🚲][vsco02] | … | 🚶 |
+| Sublime 「[SublimeHaskell][subl01]」 | 🚀² | 🚗² | … | 🚗² | … | 🚲¹ | … | 🚶 | 🚗² | … | … | 🚲 |
 
 
 ## Meaning of each level
@@ -56,6 +56,7 @@ Notes:
     __ -> ___
   ```
 * Hoogle
+* REPL Integration - Be able to load/reload a file to e.g. ghci and provide interaction. Autocompletion and syntax highlighting are also welcomed.
 
 [gen01]: https://github.com/chrisdone/hindent "hindent"
 

@@ -11,27 +11,26 @@ Each known plug-in has an associated link and tooltip with its name.
 
 | IDE | Syntax highlight | Code Completion | Error Reporting | Lint | Code Format | Goto Def | Find Usages | Stepwise Debugger | Doc. tooltips | Snippets | Hoogle | REPL Integration |
 |:---:|:----------------:|:---------------:|:---------------:|:----:|:-----------:|:--------:|:-----------:|:-----------------:|:-------------:|:--------:|:------:|:----------------:|
-| Atom<br>「[ide-haskell][atom06]&nbsp;<sup>[[gh]][atom06r]</sup>」 | [🚀][atom01] | [🚗][atom02] | 🚗 | 🚗 | [🚲][gen01] | 🚗 | … | [🚗][atom03] | [🚗][atom05] | [🚗][atom01] | [🚗][atom04] | 🚲 |
-| Emacs 「[Intero][emacs02]&nbsp;<sup>[[gh]][emacs02r]</sup>」 | [🚀][emacs01] | 🚗² | 🚗² | 🚗² | [🚗][gen01] | 🚗² | … | 🚶 | 🚗² | [🚗][emacs04] | … | 🚗 |
-| Intellij 「[HaskForce][inte01]&nbsp;<sup>[[gh]][inte01r]</sup>」 | 🚀² | 🚗 | 🚗 | 🚗 | 🚗 | 🚗 | 🚗 | 🚶 | 🚶 | 🚗 | 🚶 | 🚶 |
-| Intellij<br>「[intellij&#8209;haskell][inte02]&nbsp;<sup>[[gh]][inte02r]</sup>」| 🚀² | 🚗 | 🚀 | 🚲 | 🚲 | 🚀 | 🚀 | 🚶 | 🚲 | 🚗 | 🚲 | … |
-| Leksah | 🚀¹ | … | … | … | … | … | … | … | … | … | … | … |
-| Vim      | 🚀¹ | 🚲¹ | … | [🚗³][vim01] | [🚗][gen01] | 🚲¹ | … | 🚶 | [🚗][vim02] | [🚗][vim03] | … | 🚲 |
-| VSCode 「[Haskelly][vsco01]&nbsp;<sup>[[gh]][vsco01r]</sup>」 | [🚀][vsco02] | … | [🚶][vsco07] | [🚗][vsco03] | [🚗][vsco04] | 🚗² | … | [🚲][vsco05] | 🚗² | [🚲][vsco02] | … | 🚲 |
-| VSCode 「[Haskero][vsco06]&nbsp;<sup>[[gl]][vsco06r]</sup>」  | [🚀][vsco02] | 🚗² | 🚗² | [🚗][vsco03] | [🚗][vsco04] | 🚗² | 🚗² | [🚲][vsco05] | 🚗² | [🚲][vsco02] | … | 🚶 |
-| Sublime 「[SublimeHaskell][subl01]&nbsp;<sup>[[gh]][subl01r]</sup>」 | 🚀² | 🚗² | … | 🚗² | … | 🚲¹ | … | 🚶 | 🚗² | … | … | 🚲 |
+| Atom<br>「[ide-haskell][atom06]&nbsp;<sup>[[gh]][atom06r]</sup>」 | [✔️][atom01] | [➕][atom02] | ➕ | ➕ | [❕][gen01] | ➕ | ❔ | [➕][atom03] | [➕][atom05] | [➕][atom01] | [➕][atom04] | ❕ |
+| Emacs 「[Intero][emacs02]&nbsp;<sup>[[gh]][emacs02r]</sup>」 | [✔️][emacs01] | ➕² | ➕² | ➕² | [➕][gen01] | ➕² | ❔ | ❌ | ➕² | [➕][emacs04] | ❔ | ➕ |
+| Intellij 「[HaskForce][inte01]&nbsp;<sup>[[gh]][inte01r]</sup>」 | ✔️² | ➕ | ➕ | ➕ | ➕ | ➕ | ➕ | ❌ | ❌ | ➕ | ❌ | ❌ |
+| Intellij<br>「[intellij&#8209;haskell][inte02]&nbsp;<sup>[[gh]][inte02r]</sup>」| ✔️² | ➕ | ✔️ | ❕ | ❕ | ✔️ | ✔️ | ❌ | ❕ | ➕ | ❕ | ❔ |
+| Leksah | ✔️¹ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ |
+| Vim      | ✔️¹ | ❕¹ | ❔ | [➕³][vim01] | [➕][gen01] | ❕¹ | ❔ | ❌ | [➕][vim02] | [➕][vim03] | ❔ | ❕ |
+| VSCode 「[Haskelly][vsco01]&nbsp;<sup>[[gh]][vsco01r]</sup>」 | [✔️][vsco02] | ❔ | [❌][vsco07] | [➕][vsco03] | [➕][vsco04] | ➕² | ❔ | [❕][vsco05] | ➕² | [❕][vsco02] | ❔ | ❕ |
+| VSCode 「[Haskero][vsco06]&nbsp;<sup>[[gl]][vsco06r]</sup>」  | [✔️][vsco02] | ➕² | ➕² | [➕][vsco03] | [➕][vsco04] | ➕² | ➕² | [❕][vsco05] | ➕² | [❕][vsco02] | ❔ | ❌ |
+| Sublime 「[SublimeHaskell][subl01]&nbsp;<sup>[[gh]][subl01r]</sup>」 | ✔️² | ➕² | ❔ | ➕² | ❔ | ❕¹ | ❔ | ❌ | ➕² | ❔ | ❔ | ❕ |
 
 
 ## Meaning of each level
 
 | Symbol | Support Level                         |
 |:------:|:------------------------------------- |
-| …      | Unknown, support is uncertain         |
-| 🚶     | Absent, you are on your own           |
-| 🚲     | Immature, only for early-adopters     |
-| 🚗     | Mature, suitable for most programmers |
-| 🚀     | The best™ possible experience         |
-
+| ❔      | Unknown, support is uncertain         |
+| ❌     | Absent, you are on your own           |
+| ❕     | Immature, only for early-adopters     |
+| ➕     | Mature, suitable for most programmers |
+| ✔️     | The best™ possible experience         |
 
 Notes:
 

@@ -63,7 +63,7 @@ Notes:
 [atom01]: https://atom.io/packages/language-haskell "language-haskell"
 [atom02]: https://atom.io/packages/autocomplete-haskell "ghc-mod via autocomplete-haskell"
 [atom03]: https://atom.io/packages/haskell-debug "haskell-debug"
-[atom04]: https://atom.io/packages/haskell-hoogle "haskell-hoogle"
+[atom04]: https://atom.io/packages/ide-haskell-hoogle "ide-haskell-hoogle"
 [atom05]: https://atom.io/packages/haskell-ghc-mod "haskell-ghc-mod"
 [atom06]: https://atom.io/packages/ide-haskell "ide-haskell"
 [atom06r]: https://github.com/atom-haskell/ide-haskell "ide-haskell repo"

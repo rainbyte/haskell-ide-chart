@@ -17,6 +17,7 @@ Each known plug-in has an associated link and tooltip with its name.
 | Intellij<br>「[intellij&#8209;haskell][inte02]&nbsp;<sup>[[gh]][inte02r]</sup>」 |        ❓         |       🏆²        |       🥈        |       🏆        |      🌱      |      🌱      |    🏆    |     🏆      |         ⛔         |      🌱       |      🥈       |      🌱       |        ❓         |       ❓       |
 |                                      Leksah                                      |        ❓         |       🏆¹        |        ❓        |        ❓        |      ❓       |      ❓       |    ❓     |      ❓      |         ❓         |       ❓       |       ❓       |       ❓       |        ❓         |       ❓       |
 |                                       Vim                                        |        ❓         |       🏆¹        |       🌱¹       |        ❓        | [🥈³][vim01] | [🥈][gen01]  |   🌱¹    |      ❓      |         ⛔         |  [🥈][vim02]  |  [🥈][vim03]  |       ❓       |        🌱        |       ❓       |
+|         VSCode 「[GHC Simple][vsco09]&nbsp;<sup>[[gh]][vsco09r]</sup>」          |  [ghci][back02]  |   [🏆][vsco02]   |       🥈        |        ❓        | [🥈][vsco03] | [🥈][vsco04] |   🥈²    |     🥈      |   [🌱][vsco05]    |      🥈²      | [🌱][vsco02]  | [🥈][vsco08]  |        🥈        |       ❓       |
 |          VSCode 「[Haskelly][vsco01]&nbsp;<sup>[[gh]][vsco01r]</sup>」           | [intero][back01] |   [🏆][vsco02]   |        ❓        |   [⛔][vsco07]   | [🥈][vsco03] | [🥈][vsco04] |   🥈²    |      ❓      |   [🌱][vsco05]    |      🥈²      | [🌱][vsco02]  | [🥈][vsco08]  |        🌱        |       ❓       |
 |           VSCode 「[Haskero][vsco06]&nbsp;<sup>[[gl]][vsco06r]</sup>」           | [intero][back01] |   [🏆][vsco02]   |       🥈²       |       🥈²       | [🥈][vsco03] | [🥈][vsco04] |   🥈²    |     🥈²     |   [🌱][vsco05]    |      🥈²      | [🌱][vsco02]  | [🥈][vsco08]² |        ⛔         |       ❓       |
 |                                    Spacemacs                                     |        ❓         |        ❓         |        ❓        |        ❓        |      ❓       |      ❓       |    ❓     |      ❓      |         ❓         |       ❓       |       ❓       |       ❓       |        ❓         |       ❓       |
@@ -99,6 +100,8 @@ Notes:
 [vsco06r]: https://gitlab.com/vannnns/haskero "Haskero repo"
 [vsco07]: https://github.com/haskelly-dev/Haskelly/issues/29 "haskelly: issue #29"
 [vsco08]: https://marketplace.visualstudio.com/items?itemName=jcanero.hoogle-vscode "hoogle-vscode"
+[vsco09]: https://marketplace.visualstudio.com/items?itemName=dramforever.vscode-ghc-simple "ghc-simple"
+[vsco09r]: https://github.com/dramforever/vscode-ghc-simple "ghc-simple repo"
 
 [subl01]: https://packagecontrol.io/packages/SublimeHaskell "SublimeHaskell"
 [subl01r]: https://github.com/SublimeHaskell/SublimeHaskell "SublimeHaskell repo"

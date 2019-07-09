@@ -25,12 +25,12 @@ Each known plug-in has an associated link and tooltip with its name.
 ## Meaning of each level
 
 | Symbol | Support Level                         |
-|:------:|:------------------------------------- |
-| …      | Unknown, support is uncertain         |
-| 🚶     | Absent, you are on your own           |
-| 🚲     | Immature, only for early-adopters     |
-| 🚗     | Mature, suitable for most programmers |
-| 🚀     | The best™ possible experience         |
+| :----: | :------------------------------------ |
+|   …    | Unknown, support is uncertain         |
+|   🚶   | Absent, you are on your own           |
+|   🚲   | Immature, only for early-adopters     |
+|   🚗   | Mature, suitable for most programmers |
+|   🚀   | The best™ possible experience         |
 
 
 Notes:

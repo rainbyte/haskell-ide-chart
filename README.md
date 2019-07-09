@@ -9,18 +9,18 @@ Each known plug-in has an associated link and tooltip with its name.
 
 ## The chart (with a link to each plug-in)
 
-|                                       IDE                                        | Syntax highlight | Code Completion | Error Reporting |     Lint     | Code Format  | Goto Def | Find Usages | Stepwise Debugger | Doc. tooltips |   Snippets    |    Hoogle     | REPL Integration | Build Command |
-| :------------------------------------------------------------------------------: | :--------------: | :-------------: | :-------------: | :----------: | :----------: | :------: | :---------: | :---------------: | :-----------: | :-----------: | :-----------: | :--------------: | :-----------: |
-|        Atom<br>「[ide-haskell][atom06]&nbsp;<sup>[[gh]][atom06r]</sup>」         |   [🏆][atom01]   |  [🥈][atom02]   |       🥈        |      🥈      | [🌱][gen01]  |    🥈    |      ❓      |   [🥈][atom03]    | [🥈][atom05]  | [🥈][atom01]  | [🏆][atom04]  |        🌱        |       ❓       |
-|           Emacs 「[Intero][emacs02]&nbsp;<sup>[[gh]][emacs02r]</sup>」           |  [🏆][emacs01]   |       🥈²       |       🥈²       |     🥈²      | [🥈][gen01]  |   🥈²    |      ❓      |         ⛔         |      🥈²      | [🥈][emacs04] |       ❓       |        🥈        |       ❓       |
-|         Intellij 「[HaskForce][inte01]&nbsp;<sup>[[gh]][inte01r]</sup>」         |       🏆²        |       🥈        |       🥈        |      🥈      |      🥈      |    🥈    |     🥈      |         ⛔         |       ⛔       |      🥈       |       ⛔       |        ⛔         |       ❓       |
-| Intellij<br>「[intellij&#8209;haskell][inte02]&nbsp;<sup>[[gh]][inte02r]</sup>」 |       🏆²        |       🥈        |       🏆        |      🌱      |      🌱      |    🏆    |     🏆      |         ⛔         |      🌱       |      🥈       |      🌱       |        ❓         |       ❓       |
-|                                      Leksah                                      |       🏆¹        |        ❓        |        ❓        |      ❓       |      ❓       |    ❓     |      ❓      |         ❓         |       ❓       |       ❓       |       ❓       |        ❓         |       ❓       |
-|                                       Vim                                        |       🏆¹        |       🌱¹       |        ❓        | [🥈³][vim01] | [🥈][gen01]  |   🌱¹    |      ❓      |         ⛔         |  [🥈][vim02]  |  [🥈][vim03]  |       ❓       |        🌱        |       ❓       |
-|          VSCode 「[Haskelly][vsco01]&nbsp;<sup>[[gh]][vsco01r]</sup>」           |   [🏆][vsco02]   |        ❓        |   [⛔][vsco07]   | [🥈][vsco03] | [🥈][vsco04] |   🥈²    |      ❓      |   [🌱][vsco05]    |      🥈²      | [🌱][vsco02]  | [🥈][vsco08]  |        🌱        |       ❓       |
-|           VSCode 「[Haskero][vsco06]&nbsp;<sup>[[gl]][vsco06r]</sup>」           |   [🏆][vsco02]   |       🥈²       |       🥈²       | [🥈][vsco03] | [🥈][vsco04] |   🥈²    |     🥈²     |   [🌱][vsco05]    |      🥈²      | [🌱][vsco02]  | [🥈][vsco08]² |        ⛔         |       ❓       |
-|                                    Spacemacs                                     |        ❓         |        ❓        |        ❓        |      ❓       |      ❓       |    ❓     |      ❓      |         ❓         |       ❓       |       ❓       |       ❓       |        ❓         |       ❓       |
-|       Sublime 「[SublimeHaskell][subl01]&nbsp;<sup>[[gh]][subl01r]</sup>」       |       🏆²        |       🥈²       |        ❓        |     🥈²      |      ❓       |   🌱¹    |      ❓      |         ⛔         |      🥈²      |       ❓       |       ❓       |        🌱        |       ❓       |
+|                                       IDE                                        |     Backend      | Syntax highlight | Code Completion | Error Reporting |     Lint     | Code Format  | Goto Def | Find Usages | Stepwise Debugger | Doc. tooltips |   Snippets    |    Hoogle     | REPL Integration | Build Command |
+| :------------------------------------------------------------------------------: | :--------------: | :--------------: | :-------------: | :-------------: | :----------: | :----------: | :------: | :---------: | :---------------: | :-----------: | :-----------: | :-----------: | :--------------: | :-----------: |
+|        Atom<br>「[ide-haskell][atom06]&nbsp;<sup>[[gh]][atom06r]</sup>」         |        ❓         |   [🏆][atom01]   |  [🥈][atom02]   |       🥈        |      🥈      | [🌱][gen01]  |    🥈    |      ❓      |   [🥈][atom03]    | [🥈][atom05]  | [🥈][atom01]  | [🏆][atom04]  |        🌱        |       ❓       |
+|           Emacs 「[Intero][emacs02]&nbsp;<sup>[[gh]][emacs02r]</sup>」           | [intero][back01] |  [🏆][emacs01]   |       🥈²       |       🥈²       |     🥈²      | [🥈][gen01]  |   🥈²    |      ❓      |         ⛔         |      🥈²      | [🥈][emacs04] |       ❓       |        🥈        |       ❓       |
+|         Intellij 「[HaskForce][inte01]&nbsp;<sup>[[gh]][inte01r]</sup>」         |        ❓         |       🏆²        |       🥈        |       🥈        |      🥈      |      🥈      |    🥈    |     🥈      |         ⛔         |       ⛔       |      🥈       |       ⛔       |        ⛔         |       ❓       |
+| Intellij<br>「[intellij&#8209;haskell][inte02]&nbsp;<sup>[[gh]][inte02r]</sup>」 |        ❓         |       🏆²        |       🥈        |       🏆        |      🌱      |      🌱      |    🏆    |     🏆      |         ⛔         |      🌱       |      🥈       |      🌱       |        ❓         |       ❓       |
+|                                      Leksah                                      |        ❓         |       🏆¹        |        ❓        |        ❓        |      ❓       |      ❓       |    ❓     |      ❓      |         ❓         |       ❓       |       ❓       |       ❓       |        ❓         |       ❓       |
+|                                       Vim                                        |        ❓         |       🏆¹        |       🌱¹       |        ❓        | [🥈³][vim01] | [🥈][gen01]  |   🌱¹    |      ❓      |         ⛔         |  [🥈][vim02]  |  [🥈][vim03]  |       ❓       |        🌱        |       ❓       |
+|          VSCode 「[Haskelly][vsco01]&nbsp;<sup>[[gh]][vsco01r]</sup>」           | [intero][back01] |   [🏆][vsco02]   |        ❓        |   [⛔][vsco07]   | [🥈][vsco03] | [🥈][vsco04] |   🥈²    |      ❓      |   [🌱][vsco05]    |      🥈²      | [🌱][vsco02]  | [🥈][vsco08]  |        🌱        |       ❓       |
+|           VSCode 「[Haskero][vsco06]&nbsp;<sup>[[gl]][vsco06r]</sup>」           | [intero][back01] |   [🏆][vsco02]   |       🥈²       |       🥈²       | [🥈][vsco03] | [🥈][vsco04] |   🥈²    |     🥈²     |   [🌱][vsco05]    |      🥈²      | [🌱][vsco02]  | [🥈][vsco08]² |        ⛔         |       ❓       |
+|                                    Spacemacs                                     |        ❓         |        ❓         |        ❓        |        ❓        |      ❓       |      ❓       |    ❓     |      ❓      |         ❓         |       ❓       |       ❓       |       ❓       |        ❓         |       ❓       |
+|       Sublime 「[SublimeHaskell][subl01]&nbsp;<sup>[[gh]][subl01r]</sup>」       |        ❓         |       🏆²        |       🥈²       |        ❓        |     🥈²      |      ❓       |   🌱¹    |      ❓      |         ⛔         |      🥈²      |       ❓       |       ❓       |        🌱        |       ❓       |
 
 
 ## Meaning of each level
@@ -42,6 +42,7 @@ Notes:
 
 ## Features
 
+* Backend - The engine which makes some processing behind scenes to make most of the features available
 * Syntax highlight 
 * Code Completion
 * Error Reporting
@@ -61,6 +62,10 @@ Notes:
 * Build Command - Project compilation cycle can be started using the editor preferred way
 
 [gen01]: https://github.com/chrisdone/hindent "hindent"
+
+[back01]: https://github.com/chrisdone/intero "intero"
+[back02]: https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/ghci.html "ghci"
+[back03]: https://github.com/haskell/haskell-ide-engine "hie"
 
 [atom01]: https://atom.io/packages/language-haskell "language-haskell"
 [atom02]: https://atom.io/packages/autocomplete-haskell "ghc-mod via autocomplete-haskell"

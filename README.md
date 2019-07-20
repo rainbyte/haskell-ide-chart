@@ -13,6 +13,7 @@ Each known plug-in has an associated link and tooltip with its name.
 | :------------------------------------------------------------------------------: | :--------------: | :-------------: | :--------------: | :-------------: | :-------------: | :----------: | :----------: | :------: | :---------: | :---------------: | :-----------: | :-----------: | :-----------: | :--------------: | :-----------: |
 |        Atom<br>「[ide-haskell][atom06]&nbsp;<sup>[[gh]][atom06r]</sup>」         |        ❓         |        ❓        |   [🏆][atom01]   |  [🥈][atom02]   |       🥈        |      🥈      | [🌱][gen01]  |    🥈    |      ❓      |   [🥈][atom03]    | [🥈][atom05]  | [🥈][atom01]  | [🏆][atom04]  |        🌱        |       ❓       |
 |           Emacs 「[Intero][emacs02]&nbsp;<sup>[[gh]][emacs02r]</sup>」           | [intero][back01] |       🥈        |  [🏆][emacs01]   |       🥈²       |       🥈²       |     🥈²      | [🥈][gen01]  |   🥈²    |      ❓      |         ⛔         |      🥈²      | [🥈][emacs04] |       ❓       |        🥈        |       ❓       |
+|                             [Haskell for Mac][hfm01]                             |        ❓         |        ❓        |        ❓         |        ❓        |        ❓        |      ❓       |      ❓       |    ❓     |      ❓      |         ❓         |       ❓       |       ❓       |       ❓       |        ❓         |       ❓       |
 |         Intellij 「[HaskForce][inte01]&nbsp;<sup>[[gh]][inte01r]</sup>」         |        ❓         |        ❓        |       🏆²        |       🥈        |       🥈        |      🥈      |      🥈      |    🥈    |     🥈      |         ⛔         |       ⛔       |      🥈       |       ⛔       |        ⛔         |       ❓       |
 | Intellij<br>「[intellij&#8209;haskell][inte02]&nbsp;<sup>[[gh]][inte02r]</sup>」 |        ❓         |        ❓        |       🏆²        |       🥈        |       🏆        |      🌱      |      🌱      |    🏆    |     🏆      |         ⛔         |      🌱       |      🥈       |      🌱       |        ❓         |       ❓       |
 |                                      Leksah                                      |        ❓         |        ❓        |       🏆¹        |        ❓        |        ❓        |      ❓       |      ❓       |    ❓     |      ❓      |         ❓         |       ❓       |       ❓       |       ❓       |        ❓         |       ❓       |
@@ -81,6 +82,8 @@ Notes:
 [emacs02]: https://commercialhaskell.github.io/intero/ "intero"
 [emacs02r]: https://github.com/commercialhaskell/intero "intero repo"
 [emacs04]: https://github.com/joaotavora/yasnippet "yasnippet"
+
+[hfm01]: http://haskellformac.com/ "haskell for mac"
 
 [inte01]: https://plugins.jetbrains.com/plugin/7602-haskforce "HaskForce"
 [inte01r]: https://github.com/carymrobbins/intellij-haskforce "HaskForce repo"

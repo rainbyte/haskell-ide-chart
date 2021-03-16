@@ -29,7 +29,7 @@ Each known plug-in has an associated link and tooltip with its name.
 
 | Symbol | Support Level                         |
 | :----: | :------------------------------------ |
-|   ?    | Unknown, support is uncertain         |
+|   ❓    | Unknown, support is uncertain         |
 |   ⛔    | Absent, you are on your own           |
 |   🌱   | Immature, only for early-adopters     |
 |   🥈   | Mature, suitable for most programmers |
